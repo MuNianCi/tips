@@ -1,0 +1,10 @@
+package controls
+import "fmt"
+//inituu add on 2020/09/06  14:53
+func GetMaxValue(a int, b int)int{
+  if a >= b{
+    return a
+  }else{
+    return b
+  }
+}
